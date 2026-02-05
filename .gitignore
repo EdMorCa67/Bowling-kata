@@ -1,12 +1,14 @@
-# Node / JS
-node_modules/
-dist/
-.env
-*.log
-
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# VSCode
+# Pytest
+.pytest_cache/
+
+# Entornos virtuales
+venv/
+env/
+
+# VS Code
 .vscode/
